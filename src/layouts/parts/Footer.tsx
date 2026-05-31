@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
           {/* Marca */}
           <div className="flex flex-col gap-5">
-            <Link to="/" aria-label="Route Holy Valera - Inicio">
+            <Link to="/" aria-label="Route Holy Valera - Inicio" className="flex items-center">
               <img
                 src="/images/icono-cruz2.png"
                 alt="Route Holy Valera"

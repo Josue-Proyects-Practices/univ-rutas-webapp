@@ -104,7 +104,7 @@ export default function GaleriaPage() {
                     aria-label={`Ver imagen: ${img.titulo}`}
                   >
                     <img
-                      src={img.slot}
+                      src={`${import.meta.env.BASE_URL}${img.slot}`}
                       alt={img.titulo}
                       className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                       width={600}
@@ -198,7 +198,7 @@ export default function GaleriaPage() {
               onClick={(e) => e.stopPropagation()}
             >
               <img
-                src={current.slot}
+                src={`${import.meta.env.BASE_URL}${current.slot}`}
                 alt={current.titulo}
                 className="max-h-[70vh] w-auto max-w-full rounded-xl object-contain"
               />

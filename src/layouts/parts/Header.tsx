@@ -34,7 +34,7 @@ export default function Header() {
           <Link to="/" className="flex items-center gap-3 shrink-0" aria-label="Ir al inicio">
             <img
             
-              src="/images/icono-cruz.png"
+              src={`${import.meta.env.BASE_URL}images/icono-cruz.png`}
               alt="Route Holy Valera"
               className="h-10 md:h-12 w-auto object-contain"
             />

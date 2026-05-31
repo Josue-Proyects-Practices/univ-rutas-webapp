@@ -47,7 +47,7 @@ export default function Footer() {
           <div className="flex flex-col gap-5">
             <Link to="/" aria-label="Route Holy Valera - Inicio" className="flex items-center">
               <img
-                src="/images/icono-cruz2.png"
+                src={`${import.meta.env.BASE_URL}images/icono-cruz2.png`}
                 alt="Route Holy Valera"
                 className="h-10 w-auto object-contain shrink-0 self-start brightness-0 invert"
               />

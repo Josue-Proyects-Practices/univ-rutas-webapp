@@ -88,7 +88,7 @@ export default function HomePage() {
         >
           <div className="absolute inset-0">
             <img
-              src="/images/principal.jpg"
+              src={`${import.meta.env.BASE_URL}images/principal.jpg`}
               alt="Templo colonial de la Zona Pastoral Valera"
               className="w-full h-full object-cover object-center"
             />
@@ -246,7 +246,7 @@ export default function HomePage() {
                   style={{ minHeight: '380px' }}
                 >
                   <img
-                    src={p.imagen}
+                    src={`${import.meta.env.BASE_URL}${p.imagen}`}
                     alt={p.nombre}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -285,7 +285,7 @@ export default function HomePage() {
                   style={{ minHeight: '220px' }}
                 >
                   <img
-                    src={p.imagen}
+                    src={`${import.meta.env.BASE_URL}${p.imagen}`}
                     alt={p.nombre}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
@@ -406,7 +406,7 @@ export default function HomePage() {
                 style={{ minHeight: '280px' }}
               >
                 <img
-                  src={gallerySlots[0]}
+                  src={`${import.meta.env.BASE_URL}${gallerySlots[0]}`}
                   alt="Galería 1"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -419,7 +419,7 @@ export default function HomePage() {
                   style={{ minHeight: i === 0 ? '200px' : '160px' }}
                 >
                   <img
-                    src={slot}
+                    src={`${import.meta.env.BASE_URL}${slot}`}
                     alt={`Galería ${i + 2}`}
                     className="absolute inset-0 w-full h-full object-cover"
                   />

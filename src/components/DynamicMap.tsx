@@ -78,7 +78,7 @@ export default function DynamicMap({ parroquias, selected, onSelect }: DynamicMa
               <p style="font-size:10px;color:#888;margin:0 0 2px;text-transform:uppercase;letter-spacing:.05em">${p.subtitulo}</p>
               <h3 style="font-size:14px;font-weight:700;margin:0 0 4px;color:#1a1a1a">${p.nombre}</h3>
               <p style="font-size:11px;color:#555;margin:0 0 6px;line-height:1.4">${p.descripcionCorta.slice(0, 90)}…</p>
-              <a href="/parroquias/${p.id}" style="font-size:11px;color:${color};font-weight:600;text-decoration:none">Ver ficha →</a>
+              <a href="/univ-rutas-webapp/parroquias/${p.id}" style="font-size:11px;color:${color};font-weight:600;text-decoration:none">Ver ficha →</a>
             </div>
             `,
             { maxWidth: 220 },

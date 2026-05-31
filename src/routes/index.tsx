@@ -19,5 +19,8 @@ export const router = createBrowserRouter([
       { path: 'galeria', element: <GaleriaPage /> },
       { path: 'consejos', element: <ConsejosPage /> },
     ],
-  },
-]);
+  },  
+],
+{  
+  basename: '/univ-rutas-webapp/',
+});

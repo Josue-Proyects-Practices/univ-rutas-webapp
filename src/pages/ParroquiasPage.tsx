@@ -74,7 +74,7 @@ export default function ParroquiasPage() {
                         style={{ minHeight: '280px' }}
                       >
                         <img
-                          src={p.imagen}
+                          src={`${import.meta.env.BASE_URL}${p.imagen}`}
                           alt={p.nombre}
                           className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />

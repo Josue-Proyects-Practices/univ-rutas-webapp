@@ -61,7 +61,7 @@ export default function ParroquiaDetallePage() {
       <main>
         <section className="relative h-[55vh] md:h-[65vh] overflow-hidden">
           <img
-            src={parroquia.imagen}
+            src={`${import.meta.env.BASE_URL}${parroquia.imagen}`}
             alt={parroquia.nombre}
             className="absolute inset-0 w-full h-full object-cover"
           />
